@@ -1,0 +1,7 @@
+.footer {
+  display:flexbox;
+  text-align:center;
+  width:100%;
+  background-color:$mainRedDk;
+  color:white;
+}

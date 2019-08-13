@@ -1,0 +1,44 @@
+
+extends ../layouts/index
+block loginlist
+  label(for='first') First Name:
+  input#first(type='text', name='first', placeholder='Brutus', required='')
+  label(for='last') Last Name:
+  input#last(type='text', name='last')
+  div
+    label(for='male') Male
+    input#male(type='radio', name='gender', value='male')
+    label(for='female') Female
+    input#female(type='radio', name='gender', value='female')
+    label(for='other') Undecided
+    input#undecided(type='radio', name='gender', value='undecided')
+  div
+    label(for='email') Email:
+    input#email(type='email', name='email', placeholder='bomb.com', required='')
+    label(for='password') Password:
+    input#password(type='password', name='password', required='', title='5 to 10 Characters')
+  div
+    label
+      | Birthday:
+      select#month(name='month')
+        | Month:
+        option Month
+        option Jan
+        option Feb
+        option Mar
+      select#day(name='day')
+        | Day:
+        option Day
+        option 01
+        option 02
+        option 03
+      select#year(name='year')
+        | Year:
+        option Year
+        option 1978
+        option 1979
+        option 1980
+  div
+    label(for='agreed') I agree to the terms and conditions:
+    input#agreed(type='radio')
+  input(type='submit', value='Submit')

@@ -1,0 +1,14 @@
+.contents--error{
+display:flexbox;
+width:100%;
+background-color:black;
+color:greenyellow;
+text-align:center;
+}
+.contents{
+	display:flexbox;
+	width:100%;
+	background-color:black;
+	color:white;
+	text-align:center;
+	}

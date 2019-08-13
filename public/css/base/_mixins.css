@@ -1,0 +1,75 @@
+@define-mixin at00 {
+	@media(min-width:50px) {
+		@mixin-content;
+	}
+}
+
+@define-mixin at0 {
+	@media(min-width:300px) {
+		@mixin-content;
+	}
+}
+@define-mixin at1{
+	@media(min-width:350px) {
+		@mixin-content;
+	}
+}
+@define-mixin at2 {
+	@media(min-width:400px) {
+		@mixin-content;
+	}
+}
+
+@define-mixin at3 {
+	@media(min-width:450px) {
+		@mixin-content;
+	}
+}
+@define-mixin at4 {
+	@media(min-width:500px) {
+		@mixin-content;
+	}
+}
+@define-mixin at5{
+	@media(min-width:550px) {
+		@mixin-content;
+	}
+
+}
+@define-mixin at6{
+	@media(min-width:600px) {
+		@mixin-content;
+	}
+
+}
+@define-mixin at7{
+	@media(min-width:700px) {
+		@mixin-content;
+	}
+
+}
+@define-mixin at8{
+	@media(min-width:800px) {
+		@mixin-content;
+	}
+
+}
+@define-mixin at9{
+	@media(min-width:900px) {
+		@mixin-content;
+	}
+
+}
+
+@define-mixin at10 {
+	@media(min-width:1000px){
+		@mixin-content;
+	}
+}
+@define-mixin clearfix{
+		&::after {
+		content:"";
+		clear:both;
+		display:table;
+	}
+}

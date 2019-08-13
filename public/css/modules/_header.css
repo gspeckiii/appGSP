@@ -1,0 +1,7 @@
+.header{
+  display:flexbox;
+  text-align:center;
+  width:100%;
+  background-color:$mainRed;
+  color:black;
+}
