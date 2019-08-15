@@ -6,9 +6,34 @@ color:greenyellow;
 text-align:center;
 }
 .contents{
-	display:flexbox;
-	width:100%;
-	background-color:black;
-	color:white;
+  background-color:rgba(1,3,4,.75);
 	text-align:center;
+	max-width:800px;
+	font-size:1.25rem;
+	margin-right:15%;
+	margin-left:15%;
+	}
+	.contents p{
+		padding:20px;
+		color:$mainRedLt;
+		text-align:left;
+	}
+	.contentsInLn150sq{
+		position:absolute;
+		background-color:rgba(1,3,4,.50);
+		padding:1.5%;
+		top:85px;
+		right:15%;
+		z-index:-1;
+	
+	
+	}
+	.contentsInLn150sq img{
+		width:100px;
+		z-index:-2;
+		border-radius:100px;
+		transform:translateY(-7px);
+	
+
+
 	}

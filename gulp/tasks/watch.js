@@ -1,7 +1,6 @@
 var gulp = require('gulp'),
-watch=require('gulp-watch'),
-browserSync=require("browser-sync").create();
-var nodemon=require('gulp-nodemon');
+watch=require('gulp-watch')
+
 
 gulp.task('watch',function(){
 	/*browserSync.init({
@@ -13,9 +12,7 @@ gulp.task('watch',function(){
 }
 	});
 	*/
-	watch('./public/index.js',function(){
-		//browserSync.reload();
-	});
+
 
 	watch('./public/css/**/*.css',function(){
 	 gulp.start('cssInject');

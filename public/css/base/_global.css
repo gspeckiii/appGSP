@@ -2,13 +2,29 @@ body{
 	font-family: 'Montserrat', sans-serif;
 	color:#333;
 	margin:0;
+	@mixin at00 {background-image:url("../../images/bckgrndRockRedPortrait.jpg");}
+	@mixin at0 {background-image:url("../../images/bckgrndRockRedPortrait.jpg");}
+	@mixin at1 {background-image:url("../../images/bckgrndRockRedPortrait.jpg");}
+	@mixin at2 {background-image:url("../../images/bckgrndRockRedPortrait.jpg");}
+	@mixin at3 {background-image:url("../../images/bckgrndRockRedPortrait.jpg");}
+	@mixin at4 {background-image:url("../../images/bkgrndRockRed.jpg");}
+	@mixin at5 {background-image:url("../../images/bkgrndRockRed.jpg");}
+	@mixin at6 {background-image:url("../../images/bkgrndRockRed.jpg");}
+	@mixin at7 {background-image:url("../../images/bkgrndRockRed.jpg");}	
+	@mixin at8 {background-image:url("../../images/bkgrndRockRed.jpg");}	
+	@mixin at9 {background-image:url("../../images/bkgrndRockRed.jpg");}	
+	@mixin at10 {background-image:url(../../"images/bkgrndRockRed.jpg");}	
 }
 h1,h2,h3,h4,h5{
 font-family: 'Playfair Display', serif;
 }
+button{
+	font-family: 'Montserrat', sans-serif;
+}
 
-
-
+.inLn{
+	display:inline-block;
+}
 
 img{
 	max-width: 100%;
